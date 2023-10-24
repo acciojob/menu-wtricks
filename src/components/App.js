@@ -76,7 +76,7 @@ export default function App() {
         },
     ])
 
-    const [active, setActive] = useState('all')
+    const [active, setActive] = React.useState('all')
 
     const isActive = (type) => {
         return type == active ? 'active' : ''
